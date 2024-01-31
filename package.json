@@ -1,15 +1,19 @@
 {
-  "name": "webnik",
+  "name": "my-folio",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "docker:up": "sudo docker compose up",
+    "docker:watch": "sudo docker compose watch",
+    "docker": "concurrently npm:docker:*"
   },
   "dependencies": {
     "@nextui-org/react": "^2.2.9",
+    "concurrently": "^8.2.2",
     "framer-motion": "^11.0.2",
     "next": "14.1.0",
     "react": "^18",

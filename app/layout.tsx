@@ -9,7 +9,7 @@ const iSans = localFont({
 });
 
 export const metadata: Metadata = {
-	title: 'سلام، دنیا!',
+	title: 'Hasan Goli',
 };
 
 const RootLayout: FC<PropsWithChildren> = ({ children }) => {
